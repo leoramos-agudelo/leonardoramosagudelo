@@ -259,8 +259,8 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
   .nav-actions .pill-outline:not(.lang) { padding: 0.4rem 0.75rem; font-size: 0.8rem; }
 }
 
-.photo-card.stage { position: relative; aspect-ratio: 4 / 5; background: radial-gradient(ellipse 70% 60% at 50% 42%, rgba(74,144,255,0.55) 0%, rgba(40,90,180,0.25) 45%, transparent 75%), linear-gradient(180deg,#0f2b55 0%,#0a1f3c 100%); }
-.photo-card.stage img { object-fit: cover; object-position: center bottom; filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35)); }
+.photo-card.stage { position: relative; aspect-ratio: 4 / 5; }
+.photo-card.stage img { object-fit: cover; object-position: center bottom; }
 @media (max-width: 900px) { .split .photo-card.stage { max-width: 340px; margin-inline: auto; } }
 .cta img[src*="stage-"] { height: auto; aspect-ratio: 4 / 5; object-fit: contain; object-position: center bottom; border-radius: 0; max-width: 300px; filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35)); }
 .page-hero.with-photo { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: end; padding-bottom: 0; }
@@ -367,3 +367,5 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .card.featured .org-badge { border-color: transparent; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
 @media (max-width: 900px) { .cards-3 { grid-template-columns: 1fr; } }
 .org-badge .wm-mc { margin-left: .45rem; color: #111; font-size: 1rem; }
+.photo-card.stage { background: radial-gradient(ellipse 60% 55% at 50% 42%, rgba(99,164,255,0.50) 0%, rgba(47,124,246,0.18) 45%, transparent 75%), linear-gradient(180deg, #4a5668 0%, #1f2733 100%); }
+.photo-card.stage img { filter: drop-shadow(0 0 1px rgba(255,255,255,0.35)) drop-shadow(0 12px 24px rgba(0,0,0,0.45)); }
