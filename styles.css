@@ -271,3 +271,30 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
   .page-hero.with-photo { grid-template-columns: 1fr 120px; gap: 1rem; }
   .page-hero.with-photo > div { padding-bottom: 2.5rem; }
 }
+/* About: stats, timeline, mission, media */
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
+.stat { background: #fff; border: 1px solid var(--line, #e5e9f0); border-radius: 18px; padding: 1.5rem 1.4rem; }
+.stat b { display: block; font-size: 2.1rem; letter-spacing: -0.03em; color: var(--navy, #0a1f3c); line-height: 1.1; margin-bottom: 0.4rem; }
+.stat span { color: var(--muted); font-size: 0.95rem; }
+.timeline { list-style: none; margin: 0; padding: 0 0 0 2rem; position: relative; max-width: 52rem; }
+.timeline::before { content: ""; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 2px; background: linear-gradient(#2f7cf6, #0a1f3c); border-radius: 2px; }
+.timeline li { position: relative; padding: 0 0 2.2rem 1rem; }
+.timeline li::before { content: ""; position: absolute; left: calc(-2rem + 1px); top: 4px; width: 14px; height: 14px; border-radius: 50%; background: #fff; border: 3px solid #2f7cf6; box-shadow: 0 0 0 4px rgba(47,124,246,0.15); }
+.timeline li:last-child { padding-bottom: 0; }
+.tl-date { display: inline-block; font-size: 0.8rem; font-weight: 700; color: #2f7cf6; background: #e8f0fe; border-radius: 999px; padding: 0.15rem 0.65rem; margin-bottom: 0.45rem; }
+.timeline h3 { margin: 0 0 0.35rem; font-size: 1.15rem; }
+.timeline p { margin: 0; color: var(--muted); }
+.ideas3 { grid-template-columns: repeat(3, 1fr); }
+.mission { border-radius: 24px; padding: 2.5rem 2.5rem; color: #fff; background: radial-gradient(500px 220px at 85% 20%, rgba(47,124,246,0.4), transparent 60%), linear-gradient(150deg, var(--navy-2), var(--navy)); }
+.mission .eyebrow { color: var(--accent-2); }
+.mission-text { font-size: clamp(1.5rem, 3vw, 2.2rem); font-weight: 700; letter-spacing: -0.02em; margin: 0; line-height: 1.2; }
+.media-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+.media-list li { display: flex; flex-direction: column; gap: 0.2rem; padding: 1rem 1.2rem; border: 1px solid var(--line, #e5e9f0); border-radius: 14px; background: #fff; }
+.media-list a { font-weight: 600; }
+.media-list span { color: var(--muted); font-size: 0.88rem; }
+@media (max-width: 900px) {
+  .stats { grid-template-columns: repeat(2, 1fr); gap: 0.8rem; }
+  .stat { padding: 1.1rem; } .stat b { font-size: 1.6rem; }
+  .ideas3 { grid-template-columns: 1fr; }
+  .mission { padding: 1.8rem 1.5rem; }
+}
