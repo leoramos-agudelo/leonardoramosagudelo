@@ -1,6 +1,6 @@
 # Leonardo Ramos Agudelo
 
-> Colombian executive based in Mexico City for 8+ years. Early Clara employee (first Growth hire) and General Manager of Clara for Mexico and Colombia. Writes about business leadership, fintech in LatAm, and building a family with intention. Site is bilingual: Spanish at the root, English under /en/.
+> Colombian executive based in Mexico City for 10+ years. Clara employee #10 (first Growth hire, 2020) and General Manager of Clara for Mexico and Colombia since 2024. Career: telecom engineering at Universidad Santo Tomás, BDO Consulting, Linio (2014-2019), Grin Scooters (2019-2020), Clara (Global Head of Growth, GM Colombia, GM Mexico & Colombia). UAI Executive MBA LatAm. Member of the Mastercard LatAm Fintech Council since 2025. Clara serves 10,000+ companies and is top 3 in commercial cards in Mexico and Colombia. Writes about business leadership, fintech in LatAm, and building a family with intention. Site is bilingual: Spanish at the root, English under /en/.
 
 ## Español
 - [Inicio](https://leonardoramosagudelo.com/): Quién es Leonardo y en qué trabaja hoy
@@ -11,6 +11,7 @@
   - [Crecer desde cero: lo que enseñan los primeros 1,000 clientes](https://leonardoramosagudelo.com/ideas/crecer-desde-cero): Cómo se construye la base de crecimiento de una fintech en tres países, y por qué los primeros clientes definen todo lo que viene.
   - [La experiencia del cliente es un motor comercial, no un centro de costos](https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial): Lo que aprendí liderando experiencia del cliente en Linio y Grow: NPS, autoservicio y procesos que se convierten en crecimiento.
   - [Alianzas que se vuelven producto: la tarjeta L'Oréal Mastercard](https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto): Por qué las mejores alianzas no son logos en una presentación, sino productos que llegan a industrias que la banca no atiende bien.
+  - [Eficiencia sobre headcount](https://leonardoramosagudelo.com/ideas/eficiencia-sobre-headcount): Por qué antes de abrir una vacante pregunto si la tecnología o un proceso lo pueden resolver.
 - [Contacto](https://leonardoramosagudelo.com/contacto): Prensa, charlas y colaboraciones
 
 ## English
@@ -22,7 +23,15 @@
   - [Growing from zero: what the first 1,000 customers teach you](https://leonardoramosagudelo.com/en/ideas/growing-from-zero): How you build the growth foundation of a fintech across three countries, and why the first customers shape everything after.
   - [Customer experience is a growth engine, not a cost center](https://leonardoramosagudelo.com/en/ideas/customer-experience-growth-engine): What I learned leading customer experience at Linio and Grow: NPS, self-service and processes that turn into growth.
   - [Partnerships that become products: the L'Oréal Mastercard card](https://leonardoramosagudelo.com/en/ideas/partnerships-that-become-products): Why the best partnerships aren't logos on a slide but products that reach industries banks don't serve well.
+  - [Efficiency over headcount](https://leonardoramosagudelo.com/en/ideas/efficiency-over-headcount): Why I ask whether technology or a process could solve it before opening a role.
 - [Contact](https://leonardoramosagudelo.com/en/contact)
+
+## Media
+- Kommo Emprender (YouTube): https://www.youtube.com/watch?v=1J2RHrX_WLo
+- The Fintech Podcast (YouTube): https://www.youtube.com/watch?v=ohX-Mb8ePHc
+- Arena Pública (YouTube): https://www.youtube.com/watch?v=jxan9IbHVHw
+- Desafiantes Podcast EP 090: https://podcasts.apple.com/bo/podcast/ep-090-leonardo-ramos-clara-la-magia-de-las-startups/id1562692170?i=1000615744865
+- Clara newsroom: https://www.clara.com/es-mx/recursos/newsroom/clara-nombra-a-leonardo-ramos-como-el-nuevo-country-manager-de-la-empresa-en-mexico
 
 ## Images
 - Share image: https://leonardoramosagudelo.com/og-image.jpg
