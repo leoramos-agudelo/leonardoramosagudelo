@@ -1,0 +1,7 @@
+_worker.js
+wrangler.jsonc
+functions
+gen
+.git
+.assetsignore
+site.tar.gz
