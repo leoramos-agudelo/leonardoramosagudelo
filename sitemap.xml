@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://leonardoramosagudelo.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://leonardoramosagudelo.com/en/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://leonardoramosagudelo.com/sobre-mi.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://leonardoramosagudelo.com/en/about.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+  <url><loc>https://leonardoramosagudelo.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/en/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/sobre-mi.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/en/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/negocio.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/en/business.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/familia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/en/family.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/ideas.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/en/ideas.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/contacto.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://leonardoramosagudelo.com/en/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
 </urlset>
