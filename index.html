@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leonardo Ramos Agudelo — Líder en negocio y familia | México & LatAm</title>
   <meta name="description" content="Leonardo Ramos Agudelo. General Manager en Clara (México y Colombia). Líder de negocio y de familia. Tecnología, finanzas y liderazgo humano en LatAm.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap">
   <link rel="stylesheet" href="/styles.css">
   <link rel="canonical" href="https://leonardoramosagudelo.com/">
   <link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/">
@@ -57,6 +60,7 @@
   </script>
 </head>
 <body>
+  <div class="band">
   <header>
     <nav>
       <a class="logo" href="/">Leonardo Ramos Agudelo</a>
@@ -65,45 +69,149 @@
         <li><a href="/negocio">Negocio</a></li>
         <li><a href="/familia">Familia</a></li>
         <li><a href="/ideas">Ideas</a></li>
-        <li><a href="/contacto">Contacto</a></li>
-        <li><a class="lang" href="/en/" hreflang="en">EN</a></li>
       </ul>
+      <div class="nav-actions">
+        <a class="pill-outline lang" href="/en/" hreflang="en">EN</a>
+        <a class="pill-outline" href="/contacto">Contacto</a>
+      </div>
     </nav>
   </header>
-
-  <main>
     <div class="hero">
-      <div class="hero-text">
-    <h1>Líder en negocio y en familia.</h1>
-    <p class="lede">General Manager de Clara en México y Colombia. Colombiano en México desde hace más de ocho años. Construyo negocios de tecnología financiera y un hogar con sistemas claros.</p>
+      <div class="hero-copy">
+        <h1>Líder en negocio y en familia.</h1>
+        <p class="lede">General Manager de Clara en México y Colombia. Colombiano en México desde hace más de ocho años. Construyo negocios de tecnología financiera y un hogar con sistemas claros.</p>
+        <div class="actions">
+          <a class="btn" href="/contacto">Contacto</a>
+          <a class="btn-ghost" href="/ideas">Leer ideas</a>
+        </div>
+        <div class="hero-sign">
+          <strong>Leonardo Ramos Agudelo</strong>
+          <span>Growth · Ventas · Partnerships · Fintech en LatAm</span>
+        </div>
       </div>
-      <img class="portrait" src="/portrait.jpg" width="480" height="618" alt="Leonardo Ramos Agudelo, retrato">
+      <div class="hero-media">
+        <img src="/portrait.jpg" width="480" height="618" alt="Leonardo Ramos Agudelo, retrato" fetchpriority="high">
+        <div class="chip"><span class="dot">C</span><span>General Manager · Clara<small>México & Colombia</small></span></div>
+      </div>
     </div>
-
-    <div class="section">
-      <p>Mi trabajo es liderar el crecimiento de Clara en dos países. Mi vida es liderar también en casa, con mi esposa y nuestra hija.</p>
-      <p>Este sitio es el lugar donde convergen ambas cosas. Aquí escribo sobre liderazgo de negocio, fintech en LatAm, y cómo se construye una familia con intención.</p>
-    </div>
-
-    <div class="section">
-      <h2>Ahora</h2>
-      <ul>
-        <li>Country Manager de Clara (México & Colombia)</li>
-        <li>Primer empleado de Growth en Clara</li>
-        <li>Padre y constructor de sistemas familiares</li>
-        <li>Publicando ideas de forma constante</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Contacto</h2>
-      <p>Para prensa, charlas o colaboraciones: <a href="mailto:hola@leonardoramosagudelo.com">hola@leonardoramosagudelo.com</a></p>
-      <p><a href="https://mx.linkedin.com/in/leonardoramosa">LinkedIn</a> · <a href="https://x.com/ramosagude">X</a></p>
-    </div>
+  </div>
+  <main>
+    <section class="sec">
+      <div class="container split">
+        <div class="photo-card"><img src="/portrait.jpg" width="480" height="618" alt="Leonardo Ramos Agudelo" loading="lazy"></div>
+        <div>
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Leonardo Ramos Agudelo</h2>
+          <p>Mi trabajo es liderar el crecimiento de Clara en dos países. Mi vida es liderar también en casa, con mi esposa y nuestra hija.</p>
+          <p>Este sitio es el lugar donde convergen ambas cosas. Aquí escribo sobre liderazgo de negocio, fintech en LatAm, y cómo se construye una familia con intención.</p>
+          <div class="actions"><a class="btn" href="/sobre-mi">Más sobre mí</a></div>
+          <div class="facts">
+          <div class="fact"><b>General Manager</b><span>Clara · México & Colombia</span></div>
+          <div class="fact"><b>Ciudad de México</b><span>Colombiano, 8+ años en México</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec sec-soft">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow">Ahora</p>
+          <h2>Lo que hago <em>hoy</em></h2>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="ico">01</div>
+            <h3>Country Manager de Clara</h3>
+            <p>México & Colombia</p>
+          </div>
+          <div class="card featured">
+            <div class="ico">02</div>
+            <h3>Primer empleado de Growth</h3>
+            <p>En Clara, desde el inicio</p>
+          </div>
+          <div class="card">
+            <div class="ico">03</div>
+            <h3>Padre</h3>
+            <p>Constructor de sistemas familiares</p>
+          </div>
+          <div class="card">
+            <div class="ico">04</div>
+            <h3>Escribo</h3>
+            <p>Publicando ideas de forma constante</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sec">
+      <div class="container">
+        <div class="sec-head">
+          <p class="eyebrow">Ideas</p>
+          <h2>Ideas <em>recientes</em></h2>
+          <p>Ensayos cortos sobre crecimiento, clientes y alianzas en fintech.</p>
+        </div>
+        <div class="cards">
+          <a class="card featured" href="/ideas/crecer-desde-cero">
+            <div class="ico">01</div>
+            <h3>Crecer desde cero: lo que enseñan los primeros 1,000 clientes</h3>
+            <p>Cómo se construye la base de crecimiento de una fintech en tres países, y por qué los primeros clientes definen todo lo que viene.</p>
+            <span class="more">Leer →</span>
+          </a>
+          <a class="card" href="/ideas/experiencia-del-cliente-motor-comercial">
+            <div class="ico">02</div>
+            <h3>La experiencia del cliente es un motor comercial, no un centro de costos</h3>
+            <p>Lo que aprendí liderando experiencia del cliente en Linio y Grow: NPS, autoservicio y procesos que se convierten en crecimiento.</p>
+            <span class="more">Leer →</span>
+          </a>
+          <a class="card" href="/ideas/alianzas-que-se-vuelven-producto">
+            <div class="ico">03</div>
+            <h3>Alianzas que se vuelven producto: la tarjeta L&#x27;Oréal Mastercard</h3>
+            <p>Por qué las mejores alianzas no son logos en una presentación, sino productos que llegan a industrias que la banca no atiende bien.</p>
+            <span class="more">Leer →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="sec">
+      <div class="container">
+        <div class="cta">
+          <div class="cta-copy">
+            <h2>¿Hablamos?</h2>
+            <p>Para prensa, charlas, entrevistas o colaboraciones, escríbeme directo.</p>
+            <div class="actions"><a class="btn" href="mailto:hola@leonardoramosagudelo.com">Escríbeme</a></div>
+          </div>
+          <img src="/portrait.jpg" width="480" height="618" alt="Leonardo Ramos Agudelo" loading="lazy">
+        </div>
+      </div>
+    </section>
   </main>
-
   <footer>
-    <p>© 2026 Leonardo Ramos Agudelo · Ciudad de México</p>
+    <div class="container">
+      <div class="foot">
+        <div>
+          <a class="logo" href="/">Leonardo Ramos Agudelo</a>
+          <p>General Manager de Clara en México y Colombia. Negocio, fintech en LatAm y familia con intención.</p>
+        </div>
+        <div>
+          <h4>Sitio</h4>
+          <ul>
+          <li><a href="/sobre-mi">Sobre mí</a></li>
+          <li><a href="/negocio">Negocio</a></li>
+          <li><a href="/familia">Familia</a></li>
+          <li><a href="/ideas">Ideas</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="mailto:hola@leonardoramosagudelo.com">hola@leonardoramosagudelo.com</a></li>
+            <li><a href="https://mx.linkedin.com/in/leonardoramosa">LinkedIn</a></li>
+            <li><a href="https://x.com/ramosagude">X</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copy">© 2026 Leonardo Ramos Agudelo · Ciudad de México</p>
+    </div>
   </footer>
 </body>
 </html>
