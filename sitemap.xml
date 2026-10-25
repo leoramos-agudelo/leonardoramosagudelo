@@ -84,4 +84,46 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/contact"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/contacto"/>
   </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/ideas/crecer-desde-cero</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/crecer-desde-cero"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/growing-from-zero"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/crecer-desde-cero"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/ideas/growing-from-zero</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/crecer-desde-cero"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/growing-from-zero"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/crecer-desde-cero"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/customer-experience-growth-engine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/ideas/customer-experience-growth-engine</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/customer-experience-growth-engine"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/partnerships-that-become-products"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/ideas/partnerships-that-become-products</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/partnerships-that-become-products"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto"/>
+  </url>
 </urlset>
