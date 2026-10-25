@@ -255,3 +255,7 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
   .facts { grid-template-columns: 1fr; }
   .lang { display: none; }
 }
+
+.photo-card.stage { position: relative; aspect-ratio: 4 / 5; background: radial-gradient(ellipse 70% 60% at 50% 42%, rgba(74,144,255,0.55) 0%, rgba(40,90,180,0.25) 45%, transparent 75%), linear-gradient(180deg,#0f2b55 0%,#0a1f3c 100%); }
+.photo-card.stage img { object-fit: cover; object-position: center bottom; filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35)); }
+@media (max-width: 900px) { .split .photo-card.stage { max-width: 340px; margin-inline: auto; } }
