@@ -348,3 +348,5 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .lg-item > a { width: 100%; }
 .logo-cap { white-space: normal; width: 100%; }
 .lg-item { white-space: normal; }
+.marquee .lg-item:not(:has(a)) { height: auto; }
+.marquee-track { align-items: stretch; }
