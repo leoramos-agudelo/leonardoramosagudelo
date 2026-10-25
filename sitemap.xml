@@ -1,15 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://leonardoramosagudelo.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/en/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/sobre-mi.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/en/about.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/negocio.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/en/business.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/familia.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/en/family.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/ideas.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/en/ideas.html</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/contacto.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://leonardoramosagudelo.com/en/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://leonardoramosagudelo.com/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/sobre-mi</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/sobre-mi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/sobre-mi"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/about</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/sobre-mi"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/sobre-mi"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/negocio</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/negocio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/business"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/negocio"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/business</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/negocio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/business"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/negocio"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/familia</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/familia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/family"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/familia"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/family</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/familia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/family"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/familia"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/ideas</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/ideas</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/contacto</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/contacto"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/contact</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/contacto"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/contacto"/>
+  </url>
 </urlset>
