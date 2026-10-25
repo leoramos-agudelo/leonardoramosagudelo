@@ -40,6 +40,19 @@ const IMAGES = {
 };
 const TYPES = { ".jpg": "image/jpeg", ".webp": "image/webp", ".png": "image/png", ".ico": "image/x-icon" };
 const cache = {};
+const SEC = {
+  "X-Content-Type-Options": "nosniff",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+  "Strict-Transport-Security": "max-age=31536000",
+};
+// Belt and braces: also apply the security headers to anything served from static assets.
+async function withSec(res) {
+  const r = new Response(res.body, res);
+  for (const [k, v] of Object.entries(SEC)) if (!r.headers.has(k)) r.headers.set(k, v);
+  return r;
+}
 function bytes(path) {
   if (!cache[path]) {
     const bin = atob(IMAGES[path]);
@@ -55,16 +68,16 @@ export default {
     if (Object.prototype.hasOwnProperty.call(IMAGES, url.pathname)) {
       const body = request.method === "HEAD" ? null : bytes(url.pathname);
       return new Response(body, {
-        headers: { "content-type": TYPES[url.pathname.slice(url.pathname.lastIndexOf("."))], "cache-control": "public, max-age=86400" },
+        headers: { ...SEC, "content-type": TYPES[url.pathname.slice(url.pathname.lastIndexOf("."))], "cache-control": "public, max-age=86400" },
       });
     }
     const HIDDEN = { "/familia": "/", "/familia.html": "/", "/familia/": "/", "/family": "/en/", "/en/family": "/en/", "/en/family.html": "/en/", "/en/family/": "/en/" };
     if (Object.prototype.hasOwnProperty.call(HIDDEN, url.pathname)) {
       return Response.redirect(new URL(HIDDEN[url.pathname], url.origin).toString(), 302);
     }
-    if (url.pathname.startsWith("/functions/") || url.pathname === "/_worker.js") {
+    if (url.pathname.startsWith("/functions/") || url.pathname === "/_worker.js" || url.pathname === "/_headers") {
       return new Response("Not found", { status: 404 });
     }
-    return env.ASSETS.fetch(request);
+    return withSec(await env.ASSETS.fetch(request));
   },
 };
