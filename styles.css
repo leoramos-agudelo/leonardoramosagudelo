@@ -260,14 +260,10 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .photo-card.stage img { object-fit: cover; object-position: center bottom; filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35)); }
 @media (max-width: 900px) { .split .photo-card.stage { max-width: 340px; margin-inline: auto; } }
 .cta img[src*="stage-"] { height: auto; aspect-ratio: 4 / 5; object-fit: contain; object-position: center bottom; border-radius: 0; max-width: 300px; filter: drop-shadow(0 12px 24px rgba(0,0,0,0.35)); }
-.stage-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
-.stage-fig { margin: 0; }
-.stage-fig figcaption { margin-top: 0.8rem; font-weight: 600; font-size: 0.95rem; color: var(--text); }
 .page-hero.with-photo { display: grid; grid-template-columns: 1fr 260px; gap: 2rem; align-items: end; padding-bottom: 0; }
 .page-hero.with-photo > div { padding-bottom: 4.5rem; }
 .page-hero .hero-cut { width: 100%; height: auto; display: block; filter: drop-shadow(0 12px 30px rgba(0,0,0,0.4)); background: radial-gradient(ellipse 60% 55% at 50% 45%, rgba(74,144,255,0.45), transparent 70%); }
 @media (max-width: 900px) {
-  .stage-strip { grid-template-columns: 1fr; max-width: 270px; margin: 0 auto; }
   .page-hero.with-photo { grid-template-columns: 1fr 120px; gap: 1rem; }
   .page-hero.with-photo > div { padding-bottom: 2.5rem; }
 }
