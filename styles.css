@@ -294,3 +294,57 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
   .ideas3 { grid-template-columns: 1fr; }
   .mission { padding: 1.8rem 1.5rem; }
 }
+/* Logo sections: companies, education, press */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.logos-sec .sec-head { margin-bottom: 2rem; }
+.logos-sec + .logos-sec:not(.sec-soft), .logos-sec:not(.sec-soft) + .sec:not(.sec-soft) { border-top: 1px solid var(--border); }
+.logos-note { color: var(--muted); font-size: .95rem; margin: .4rem 0 0; }
+.marquee { overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+.marquee-track { display: flex; width: max-content; list-style: none; margin: 0; padding: .5rem 0; animation: marquee 40s linear infinite; }
+.marquee:hover .marquee-track, .marquee:focus-within .marquee-track { animation-play-state: paused; }
+@keyframes marquee { to { transform: translateX(-50%); } }
+.logo-row { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.lg-item { flex: 0 0 auto; }
+.marquee .lg-item { width: 220px; margin-right: 1rem; }
+.lg-item > a, .lg-item { color: inherit; text-decoration: none; }
+.lg-item > a, .logo-row .lg-item, .marquee .lg-item:not(:has(a)) { display: flex; flex-direction: column; align-items: center; gap: .8rem; height: 100%; padding: 1.4rem 1rem 1.1rem; border-radius: 16px; background: #fff; border: 1px solid var(--border); transition: border-color .25s, box-shadow .25s, transform .25s; }
+.lg-item:hover > a, .logo-row .lg-item:hover, .marquee .lg-item:not(:has(a)):hover { border-color: rgba(47,124,246,.35); box-shadow: 0 10px 30px rgba(10,31,60,.08); transform: translateY(-2px); }
+.logo-mark { height: 56px; display: flex; align-items: center; justify-content: center; gap: .45rem; filter: grayscale(1) contrast(1.1) opacity(.62); transition: filter .3s; }
+.lg-item:hover .logo-mark, .lg-item a:focus-visible .logo-mark { filter: none; }
+.logo-mark img { width: auto; max-width: 170px; object-fit: contain; display: block; }
+.logo-cap { font-size: .8rem; line-height: 1.35; color: var(--muted); text-align: center; }
+.logo-cap b { display: block; color: var(--text); font-weight: 600; font-size: .88rem; }
+.wm { color: #1b2333; line-height: 1.1; text-align: center; }
+.wm-mc { font-weight: 600; font-size: 1.15rem; letter-spacing: -.02em; color: #141413; }
+.wm-serif { font-family: Georgia, "Times New Roman", serif; font-size: 1.05rem; color: #0b2a5b; }
+.wm-hbs { display: flex; flex-direction: column; align-items: center; }
+.wm-hbs b { font-family: Georgia, serif; font-weight: 400; font-size: 1rem; color: #a51c30; }
+.wm-hbs small { font-size: .62rem; letter-spacing: .32em; margin-top: .25rem; color: #1b2333; }
+.wm-porta { font-family: Georgia, serif; font-size: 1.6rem; font-weight: 700; color: #00838f; letter-spacing: -.01em; }
+.lg-item a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+@media (max-width: 900px) {
+  .logo-row { grid-template-columns: repeat(2, 1fr); }
+  .marquee .lg-item { width: 180px; }
+  .marquee-track { animation-duration: 32s; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee { -webkit-mask-image: none; mask-image: none; }
+  .marquee-track { animation: none; flex-wrap: wrap; width: auto; justify-content: center; gap: 1rem 0; }
+  .marquee .lg-item[aria-hidden="true"] { display: none; }
+}
+.logo-row .lg-item { min-width: 0; }
+.logo-mark img { max-width: min(170px, 100%); }
+@media (max-width: 900px) {
+  .logo-row { gap: .75rem; }
+  .logo-row .lg-item { padding: 1.1rem .6rem .9rem; }
+  .logo-row .logo-mark { height: 48px; }
+  .logo-row .logo-mark img { max-height: 40px; }
+  .wm-hbs b { font-size: .82rem; }
+  .wm-serif { font-size: .9rem; }
+  .logo-cap { font-size: .74rem; }
+  .logo-cap b { font-size: .8rem; }
+}
+.logo-cap { max-width: 100%; min-width: 0; overflow-wrap: break-word; }
+.lg-item > a { width: 100%; }
+.logo-cap { white-space: normal; width: 100%; }
+.lg-item { white-space: normal; }

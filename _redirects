@@ -1,21 +1,24 @@
+# Family pages hidden for now (temporary)
+/familia           /           302
+/familia.html      /           302
+/family            /en/        302
+/en/family         /en/        302
+/en/family.html    /en/        302
 # Legacy .html URLs -> clean URLs (Cloudflare Pages already strips .html; these make it a permanent 301)
 /index.html        /           301
 /sobre-mi.html     /sobre-mi   301
 /negocio.html      /negocio    301
-/familia.html      /familia    301
 /ideas.html        /ideas      301
 /contacto.html     /contacto   301
 /en/index.html     /en/        301
 /en/about.html     /en/about   301
 /en/business.html  /en/business 301
-/en/family.html    /en/family  301
 /en/ideas.html     /en/ideas   301
 /en/contact.html   /en/contact 301
 # English slugs at root -> English pages
 /about             /en/about   301
 /about.html        /en/about   301
 /business          /en/business 301
-/family            /en/family  301
 /contact           /en/contact 301
 # Old deploy artifact
 /site.tar.gz       /           301
