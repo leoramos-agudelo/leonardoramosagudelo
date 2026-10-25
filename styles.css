@@ -357,3 +357,6 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .logo-row .lg-item { flex: 0 1 calc((100% - 3rem) / 4); }
 .logo-row .logo-mark img { max-width: 100%; height: auto !important; max-height: 52px; object-fit: contain; }
 @media (max-width: 900px) { .logo-row .lg-item { flex-basis: calc((100% - .75rem) / 2); } .logo-row .logo-mark img { max-height: 40px; } }
+.hero h1 em { font-style: normal; color: var(--accent-2); }
+.hero h1 { text-wrap: balance; }
+.hero .lede { text-wrap: pretty; }
