@@ -7,6 +7,7 @@
 - [Sobre mí](https://leonardoramosagudelo.com/sobre-mi): Trayectoria en Clara y objetivos
 - [Negocio](https://leonardoramosagudelo.com/negocio): Clara y su enfoque de crecimiento con P&L
 - [Ideas](https://leonardoramosagudelo.com/ideas): Índice de artículos
+  - [Viajes corporativos: de la complejidad a la simplicidad](https://leonardoramosagudelo.com/ideas/viajes-corporativos-complejidad-a-simplicidad): Por qué los viajes corporativos son más complejos de lo que parecen: políticas, gastos, la industria detrás de cada viaje y lo que he aprendido.
   - [Crecer desde cero: lo que enseñan los primeros 1,000 clientes](https://leonardoramosagudelo.com/ideas/crecer-desde-cero): Cómo se construye la base de crecimiento de una fintech en tres países, y por qué los primeros clientes definen todo lo que viene.
   - [La experiencia del cliente es un motor comercial, no un centro de costos](https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial): Lo que aprendí liderando experiencia del cliente en Linio y Grow: NPS, autoservicio y procesos que se convierten en crecimiento.
   - [Alianzas que se vuelven producto: la tarjeta L'Oréal Mastercard](https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto): Por qué las mejores alianzas no son logos en una presentación, sino productos que llegan a industrias que la banca no atiende bien.
@@ -21,6 +22,7 @@
 - [About](https://leonardoramosagudelo.com/en/about)
 - [Business](https://leonardoramosagudelo.com/en/business)
 - [Ideas](https://leonardoramosagudelo.com/en/ideas): Essay index
+  - [Corporate Travel: From Complexity to Simplicity](https://leonardoramosagudelo.com/en/ideas/corporate-travel-complexity-to-simplicity): Why corporate travel is harder than it looks: policies, expenses, the industry behind every trip, and what I've learned from all sides.
   - [Growing from zero: what the first 1,000 customers teach you](https://leonardoramosagudelo.com/en/ideas/growing-from-zero): How you build the growth foundation of a fintech across three countries, and why the first customers shape everything after.
   - [Customer experience is a growth engine, not a cost center](https://leonardoramosagudelo.com/en/ideas/customer-experience-growth-engine): What I learned leading customer experience at Linio and Grow: NPS, self-service and processes that turn into growth.
   - [Partnerships that become products: the L'Oréal Mastercard card](https://leonardoramosagudelo.com/en/ideas/partnerships-that-become-products): Why the best partnerships aren't logos on a slide but products that reach industries banks don't serve well.
