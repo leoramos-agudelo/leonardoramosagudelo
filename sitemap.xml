@@ -57,6 +57,20 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas"/>
   </url>
   <url>
+    <loc>https://leonardoramosagudelo.com/lecturas</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/lecturas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/reading"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/lecturas"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/reading</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/lecturas"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/reading"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/lecturas"/>
+  </url>
+  <url>
     <loc>https://leonardoramosagudelo.com/contacto</loc>
     <lastmod>2026-10-24</lastmod>
     <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/contacto"/>
