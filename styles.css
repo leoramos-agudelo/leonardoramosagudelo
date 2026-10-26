@@ -423,12 +423,16 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .article-body a:not(.back) { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 
 /* Footnotes */
-.article-body sup.fn{font-size:.7em;line-height:0;vertical-align:super;margin-left:1px}
-.article-body sup.fn a{text-decoration:none}
-.article-body .sources{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid currentColor;border-top-color:rgba(127,127,127,.3);font-size:.9em}
-.article-body .sources ol{padding-left:1.25rem}
-.article-body .sources li{margin-bottom:.5rem;overflow-wrap:anywhere}
-.article-body .sources .fn-back{text-decoration:none;margin-left:.25rem}
+.article-body sup.fn{font-size:.7em;line-height:0;vertical-align:super;position:relative;margin-left:1px}
+.article-body sup.fn a{text-decoration:none;display:inline-block;padding:.35em .2em;margin:-.35em -.1em;min-width:1.2em;text-align:center}
+.article-body sup.fn a:hover,.article-body sup.fn a:focus-visible{text-decoration:underline}
+.article-body .sources{margin-top:2.5rem;padding-top:1rem;border-top:1px solid rgba(127,127,127,.3);font-size:.8rem;line-height:1.45;color:var(--muted)}
+.article-body .sources h2{font-size:.9rem;margin:0 0 .6rem;color:inherit;letter-spacing:.02em}
+.article-body .sources ol{padding-left:1.4rem;margin:0}
+.article-body .sources li{margin-bottom:.45rem;overflow-wrap:anywhere;word-break:break-word;hyphens:none}
+.article-body .sources a{color:inherit;text-decoration:underline;text-decoration-color:rgba(127,127,127,.5);text-underline-offset:2px}
+.article-body .sources .fn-back{text-decoration:none;display:inline-block;padding:.25rem .4rem;margin:-.25rem 0 -.25rem .1rem}
+@media (max-width:600px){.article-body .sources{font-size:.82rem;line-height:1.5}.article-body .sources li{margin-bottom:.6rem}}
 .article-body [id^="fn"],.article-body [id^="ref"]{scroll-margin-top:5rem}
 .article-body > ol { margin: 0 0 1.2rem 1.25rem; padding: 0; }
 .article-body li strong { color: inherit; }
