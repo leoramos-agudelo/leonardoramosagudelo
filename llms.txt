@@ -11,6 +11,9 @@
   - [La experiencia del cliente es un motor comercial, no un centro de costos](https://leonardoramosagudelo.com/ideas/experiencia-del-cliente-motor-comercial): Lo que aprendí liderando experiencia del cliente en Linio y Grow: NPS, autoservicio y procesos que se convierten en crecimiento.
   - [Alianzas que se vuelven producto: la tarjeta L'Oréal Mastercard](https://leonardoramosagudelo.com/ideas/alianzas-que-se-vuelven-producto): Por qué las mejores alianzas no son logos en una presentación, sino productos que llegan a industrias que la banca no atiende bien.
   - [Eficiencia sobre headcount](https://leonardoramosagudelo.com/ideas/eficiencia-sobre-headcount): Por qué antes de abrir una vacante pregunto si la tecnología o un proceso lo pueden resolver.
+  - [Cuatro pilares de un líder transformacional en el campo tecnológico](https://leonardoramosagudelo.com/ideas/cuatro-pilares-lider-transformacional): Liderazgo transformacional en la adopción tecnológica (publicado originalmente en LinkedIn, 26 jul 2022).
+- [Prensa](https://leonardoramosagudelo.com/prensa): Todos los artículos de prensa con fecha y medio
+- [Medios y charlas](https://leonardoramosagudelo.com/medios): Temas de charlas, eventos, bio corta y larga, fotos de prensa e invitaciones
 - [Contacto](https://leonardoramosagudelo.com/contacto): Prensa, charlas y colaboraciones
 
 ## English
@@ -22,6 +25,9 @@
   - [Customer experience is a growth engine, not a cost center](https://leonardoramosagudelo.com/en/ideas/customer-experience-growth-engine): What I learned leading customer experience at Linio and Grow: NPS, self-service and processes that turn into growth.
   - [Partnerships that become products: the L'Oréal Mastercard card](https://leonardoramosagudelo.com/en/ideas/partnerships-that-become-products): Why the best partnerships aren't logos on a slide but products that reach industries banks don't serve well.
   - [Efficiency over headcount](https://leonardoramosagudelo.com/en/ideas/efficiency-over-headcount): Why I ask whether technology or a process could solve it before opening a role.
+  - [Four pillars of a transformational leader in technology](https://leonardoramosagudelo.com/en/ideas/four-pillars-transformational-leader): Transformational leadership in technology adoption (originally published on LinkedIn, July 26, 2022).
+- [Press](https://leonardoramosagudelo.com/en/press): All press coverage with outlet and date
+- [Speaking & media](https://leonardoramosagudelo.com/en/speaking): Speaking topics, events, short and long bio, press photos and invitations
 - [Contact](https://leonardoramosagudelo.com/en/contact)
 
 ## Media
@@ -34,6 +40,7 @@
 ## Images
 - Share image: https://leonardoramosagudelo.com/og-image.jpg
 - Portrait: https://leonardoramosagudelo.com/portrait.jpg
+- Press photos: https://leonardoramosagudelo.com/portrait-hero.webp, https://leonardoramosagudelo.com/portrait-stage.webp, https://leonardoramosagudelo.com/stage-talk.webp
 
 ## Contact
 - Email: hola@leonardoramosagudelo.com
