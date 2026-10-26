@@ -138,11 +138,13 @@
   <div class="band">
   <header>
     <nav>
-      <a class="logo" href="/">Leonardo Ramos Agudelo</a>
-      <ul>
+      <a class="logo" href="/">Leonardo Ramos<span class="logo-last"> Agudelo</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menú"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button>
+      <ul id="site-nav">
         <li><a href="/sobre-mi">Sobre mí</a></li>
         <li><a href="/negocio">Negocio</a></li>
         <li><a href="/ideas" aria-current="page">Ideas</a></li>
+        <li class="nav-extra"><a href="/lecturas">Lecturas</a></li>
       </ul>
       <div class="nav-actions">
         <a class="pill-outline lang" href="/en/ideas/corporate-travel-complexity-to-simplicity" hreflang="en">EN</a>
@@ -344,5 +346,6 @@
       <p class="copy">© 2026 Leonardo Ramos Agudelo · Ciudad de México</p>
     </div>
   </footer>
+<script src="/nav.js" defer></script>
 </body>
 </html>
