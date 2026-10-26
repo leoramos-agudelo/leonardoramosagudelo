@@ -126,4 +126,46 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/efficiency-over-headcount"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/eficiencia-sobre-headcount"/>
   </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/prensa</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/prensa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/prensa"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/press</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/prensa"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/press"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/prensa"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/medios</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/medios"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/speaking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/medios"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/speaking</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/medios"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/speaking"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/medios"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/ideas/cuatro-pilares-lider-transformacional</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/cuatro-pilares-lider-transformacional"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/four-pillars-transformational-leader"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/cuatro-pilares-lider-transformacional"/>
+  </url>
+  <url>
+    <loc>https://leonardoramosagudelo.com/en/ideas/four-pillars-transformational-leader</loc>
+    <lastmod>2026-10-25</lastmod>
+    <xhtml:link rel="alternate" hreflang="es" href="https://leonardoramosagudelo.com/ideas/cuatro-pilares-lider-transformacional"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://leonardoramosagudelo.com/en/ideas/four-pillars-transformational-leader"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://leonardoramosagudelo.com/ideas/cuatro-pilares-lider-transformacional"/>
+  </url>
 </urlset>
