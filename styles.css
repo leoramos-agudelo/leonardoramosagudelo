@@ -421,3 +421,12 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .article-body ul { margin: 0 0 1.2rem 1.25rem; padding: 0; }
 .article-body li { font-size: 1.1rem; color: #243044; line-height: 1.75; margin-bottom: 0.4rem; }
 .article-body a:not(.back) { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+/* Footnotes */
+.article-body sup.fn{font-size:.7em;line-height:0;vertical-align:super;margin-left:1px}
+.article-body sup.fn a{text-decoration:none}
+.article-body .sources{margin-top:2.5rem;padding-top:1.25rem;border-top:1px solid currentColor;border-top-color:rgba(127,127,127,.3);font-size:.9em}
+.article-body .sources ol{padding-left:1.25rem}
+.article-body .sources li{margin-bottom:.5rem;overflow-wrap:anywhere}
+.article-body .sources .fn-back{text-decoration:none;margin-left:.25rem}
+.article-body [id^="fn"],.article-body [id^="ref"]{scroll-margin-top:5rem}
