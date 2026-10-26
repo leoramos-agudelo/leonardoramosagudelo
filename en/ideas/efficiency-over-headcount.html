@@ -66,11 +66,13 @@
   <div class="band">
   <header>
     <nav>
-      <a class="logo" href="/en/">Leonardo Ramos Agudelo</a>
-      <ul>
+      <a class="logo" href="/en/">Leonardo Ramos<span class="logo-last"> Agudelo</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span></button>
+      <ul id="site-nav">
         <li><a href="/en/about">About</a></li>
         <li><a href="/en/business">Business</a></li>
         <li><a href="/en/ideas" aria-current="page">Ideas</a></li>
+        <li class="nav-extra"><a href="/en/reading">Reading</a></li>
       </ul>
       <div class="nav-actions">
         <a class="pill-outline lang" href="/ideas/eficiencia-sobre-headcount" hreflang="es">ES</a>
@@ -143,5 +145,6 @@
       <p class="copy">© 2026 Leonardo Ramos Agudelo · Mexico City</p>
     </div>
   </footer>
+<script src="/nav.js" defer></script>
 </body>
 </html>
