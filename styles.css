@@ -445,26 +445,3 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .article-body.essay-travel .sources li { font-size: 0.7rem; line-height: 1.4; color: var(--muted); }
 @media (max-width:600px){ .article-body.essay-travel .sources { font-size: 0.7rem; line-height: 1.4; } }
 .article-body.essay-travel sup.fn { font-size: 0.6em; line-height: 0; }
-
-/* Essay hero plane (viajes corporativos / corporate travel) */
-.page-hero.essay-travel-hero { position: relative; }
-.essay-travel-hero > :not(.essay-travel-plane) { position: relative; z-index: 1; }
-.essay-travel-plane { position: absolute; right: 1.5rem; top: 50%; width: clamp(300px, 32vw, 420px); height: auto; transform: translateY(-50%); opacity: .85; pointer-events: none; z-index: 0; }
-.essay-travel-plane .etp-route { animation: etp-dash 3s linear infinite; }
-.essay-travel-plane .etp-plane { animation: etp-drift 6s ease-in-out infinite; transform-box: fill-box; }
-@keyframes etp-dash { to { stroke-dashoffset: -20; } }
-@keyframes etp-drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(5px,-3px); } }
-@media (prefers-reduced-motion: reduce) { .essay-travel-plane .etp-route, .essay-travel-plane .etp-plane { animation: none; } }
-.essay-travel-plane { opacity: 1; }
-.essay-travel-plane .etp-plane path:first-child { stroke-width: 1.7; }
-.essay-travel-plane .etp-plane path:last-child { opacity: .85; }
-.essay-travel-plane > g circle { opacity: .8; }
-.essay-travel-plane > g circle:nth-child(3) { opacity: .5; }
-@media (max-width: 1023px) {
-  .page-hero.essay-travel-hero { padding-top: 11rem; }
-  .essay-travel-plane { width: 240px; top: 1rem; right: 1rem; transform: none; }
-}
-@media (max-width: 639px) {
-  .page-hero.essay-travel-hero { padding-top: 7rem; }
-  .essay-travel-plane { width: 150px; top: .75rem; right: .75rem; }
-}
