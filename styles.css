@@ -436,3 +436,7 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .article-body [id^="fn"],.article-body [id^="ref"]{scroll-margin-top:5rem}
 .article-body > ol { margin: 0 0 1.2rem 1.25rem; padding: 0; }
 .article-body li strong { color: inherit; }
+/* Bulleted paragraphs in essays */
+.article-body ul.points { margin: 0 0 1.4rem 1.25rem; }
+.article-body ul.points li { margin-bottom: 0.6rem; line-height: 1.7; padding-left: 0.15rem; }
+.article-body p + ul.points { margin-top: -0.4rem; }
