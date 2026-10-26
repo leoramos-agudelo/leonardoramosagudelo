@@ -455,4 +455,16 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 @keyframes etp-dash { to { stroke-dashoffset: -20; } }
 @keyframes etp-drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(5px,-3px); } }
 @media (prefers-reduced-motion: reduce) { .essay-travel-plane .etp-route, .essay-travel-plane .etp-plane { animation: none; } }
-@media (max-width: 1023px) { .essay-travel-plane { display: none; } }
+.essay-travel-plane { opacity: 1; }
+.essay-travel-plane .etp-plane path:first-child { stroke-width: 1.7; }
+.essay-travel-plane .etp-plane path:last-child { opacity: .85; }
+.essay-travel-plane > g circle { opacity: .8; }
+.essay-travel-plane > g circle:nth-child(3) { opacity: .5; }
+@media (max-width: 1023px) {
+  .page-hero.essay-travel-hero { padding-top: 11rem; }
+  .essay-travel-plane { width: 240px; top: 1rem; right: 1rem; transform: none; }
+}
+@media (max-width: 639px) {
+  .page-hero.essay-travel-hero { padding-top: 7rem; }
+  .essay-travel-plane { width: 150px; top: .75rem; right: .75rem; }
+}
