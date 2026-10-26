@@ -158,8 +158,7 @@
   </main>
   <script>
 document.querySelectorAll('.copy-btn').forEach(b=>b.addEventListener('click',()=>{const t=document.getElementById(b.dataset.target).innerText;navigator.clipboard.writeText(t).then(()=>{const o=b.textContent;b.textContent=b.dataset.done;setTimeout(()=>b.textContent=o,1600);});}));
-document.getElementById('invite-form').addEventListener('submit',e=>{e.preventDefault();const f=e.target,d=new FormData(f);const s=f.dataset.subject+': '+d.get('type')+(d.get('org')?' · '+d.get('org'):'');const body=['Nombre / Name: '+d.get('name'),'Email: '+d.get('email'),'Org: '+d.get('org'),'Tipo / Type: '+d.get('type'),'',d.get('details')].join('
-');location.href='mailto:hola@leonardoramosagudelo.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(body);});
+document.getElementById('invite-form').addEventListener('submit',e=>{e.preventDefault();const f=e.target,d=new FormData(f);const s=f.dataset.subject+': '+d.get('type')+(d.get('org')?' · '+d.get('org'):'');const body=['Nombre / Name: '+d.get('name'),'Email: '+d.get('email'),'Org: '+d.get('org'),'Tipo / Type: '+d.get('type'),'',d.get('details')].join('\n');location.href='mailto:hola@leonardoramosagudelo.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(body);});
   </script>
   <footer>
     <div class="container">
