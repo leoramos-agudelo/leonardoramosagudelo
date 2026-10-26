@@ -430,3 +430,5 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .article-body .sources li{margin-bottom:.5rem;overflow-wrap:anywhere}
 .article-body .sources .fn-back{text-decoration:none;margin-left:.25rem}
 .article-body [id^="fn"],.article-body [id^="ref"]{scroll-margin-top:5rem}
+.article-body > ol { margin: 0 0 1.2rem 1.25rem; padding: 0; }
+.article-body li strong { color: inherit; }
