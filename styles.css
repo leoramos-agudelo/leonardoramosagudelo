@@ -440,3 +440,8 @@ footer { background: var(--navy); color: var(--on-dark-muted); padding: 4rem 0 2
 .article-body ul.points { margin: 0 0 1.4rem 1.25rem; }
 .article-body ul.points li { margin-bottom: 0.6rem; line-height: 1.7; padding-left: 0.15rem; }
 .article-body p + ul.points { margin-top: -0.4rem; }
+/* Corporate travel essay: smaller footnotes */
+.article-body.essay-travel .sources,
+.article-body.essay-travel .sources li { font-size: 0.7rem; line-height: 1.4; color: var(--muted); }
+@media (max-width:600px){ .article-body.essay-travel .sources { font-size: 0.7rem; line-height: 1.4; } }
+.article-body.essay-travel sup.fn { font-size: 0.6em; line-height: 0; }
